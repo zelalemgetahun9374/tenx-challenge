@@ -118,6 +118,7 @@ module.exports = function config(env, options) {
 
     module: {
       rules: [
+        { test: /\.css$/, use: "css-loader" },
         {
           oneOf: [
             {

@@ -2,10 +2,10 @@
 /* SPDX-License-Identifier: MIT */
 
 import account from "./account";
-import home from "./home";
+import { Home } from "./home";
 import legal from "./legal";
 
 /**
  * The list of application routes (pages).
  */
-export default [home, account, ...legal] as const;
+export default [Home, account, ...legal] as const;
